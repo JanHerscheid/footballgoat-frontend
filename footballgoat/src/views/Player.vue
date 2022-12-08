@@ -4,7 +4,7 @@
       <div>
         <ul v-for="item in apiData">
           <router-link to="/player">
-            <button type="button" class="btn btn-outline-dark">{{ item.name }}</button>  
+            {{ item.name }}  
           </router-link>
         </ul>
       </div>
