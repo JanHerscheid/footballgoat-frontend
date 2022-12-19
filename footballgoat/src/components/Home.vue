@@ -17,11 +17,13 @@ import axios from 'axios'
 
 export default{
     name: "home",
-    methods:{
+    methods: {
+        getPlayerList() {
+        
+        }
     },
-    mounted: function(){
-        let response = axios.get('https://localhost:7001/api/Player')
-        console.log(response)
+    mounted: {
+        
     }
 }
 </script>
